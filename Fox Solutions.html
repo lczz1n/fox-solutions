@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fox Solutions 🦊</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#0f172a;--card:#1e293b;--tx:#f8fafc;--mut:#94a3b8;--or:#f97316;--or2:#ea580c}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:20}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:rgba(15,23,42,.92);backdrop-filter:blur(8px);display:flex;gap:6px;align-items:center;padding:12px 20px;overflow-x:auto}
+nav b{margin-right:auto;white-space:nowrap}
+nav a{color:var(--mut);text-decoration:none;padding:6px 12px;border-radius:99px;font-size:.9rem;white-space:nowrap}
+nav a:hover{color:var(--tx);background:var(--card)}
+section{padding:70px 20px;max-width:1080px;margin:0 auto}
+.eyebrow{color:var(--or);font-weight:700;letter-spacing:.18em;text-transform:uppercase;font-size:.8rem;margin:0 0 8px}
+h1{font-size:clamp(2.6rem,9vw,4.8rem);line-height:1.05;margin:0 0 16px}
+h2{font-size:clamp(1.8rem,5vw,2.8rem);margin:0 0 28px;line-height:1.15}
+p{color:var(--mut);font-size:1.05rem}
+.hero{display:grid;gap:40px;align-items:center;min-height:80vh}
+@media(min-width:760px){.hero{grid-template-columns:1.2fr 1fr}}
+.bar{width:90px;height:6px;border-radius:9px;background:var(--or);margin-top:28px}
+.logo{aspect-ratio:1;background:radial-gradient(circle at 50% 40%,#0a0f2e,#02030f);border-radius:32px;display:grid;place-items:center;font-size:clamp(7rem,28vw,13rem);border:14px solid #070b16;box-shadow:0 0 80px rgba(249,115,22,.25)}
+.grid,.team{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.card{background:var(--card);border-radius:20px;padding:26px;transition:transform .2s}
+.card:hover{transform:translateY(-4px)}
+.ic{font-size:1.9rem}
+.card h3{margin:10px 0 6px;font-size:1.25rem}
+.card p{margin:0;font-size:.98rem}
+.role{color:#fdba74;font-weight:600}
+.band{background:var(--or2);max-width:none;padding:60px 20px}
+.band>div{max-width:1080px;margin:0 auto}
+.band .eyebrow{color:#fff}
+.prod{display:grid;gap:30px;align-items:center}
+@media(min-width:760px){.prod{grid-template-columns:1fr 1fr}.prod.rev .ph{order:2}}
+.ph{aspect-ratio:1;border-radius:28px;display:grid;place-items:center;font-size:7rem;border:14px solid var(--card);background:linear-gradient(135deg,#1e293b,#0b1020)}
+.prod h3{font-size:1.5rem;margin:0 0 8px}
+.prod ul{list-style:none;padding:0;margin:18px 0 0}
+.prod li{margin:10px 0}
+.prod li b{color:var(--or)}
+.end{text-align:center;padding:90px 20px}
+.end .logo{width:120px;margin:0 auto 24px;font-size:4rem;border-width:8px;border-radius:24px}
+.end p{max-width:620px;margin:0 auto}
+footer{text-align:center;color:var(--mut);padding:30px;font-size:.85rem}
+</style>
+</head>
+<body>
+<nav><b>🦊 Fox Solutions</b><a href="#quem">Quem somos</a><a href="#equipe">Equipe</a><a href="#produtos">Produtos</a><a href="#estrategia">Estratégia</a></nav>
+
+<section class="hero">
+<div>
+<p class="eyebrow">Apresentação institucional</p>
+<h1>Fox Solutions 🦊</h1>
+<p style="font-size:1.35rem">Soluções inteligentes para transformar desafios em resultados</p>
+<div class="bar"></div>
+</div>
+<div class="logo">🦊</div>
+</section>
+
+<section id="quem">
+<p class="eyebrow">Quem somos</p>
+<h2>Inovação com Identidade Própria</h2>
+<div class="grid">
+<div class="card"><div class="ic">💡</div><h3>Estratégia Inteligente</h3><p>Soluções práticas focadas em resultados reais.</p></div>
+<div class="card"><div class="ic">✨</div><h3>Design Exclusivo</h3><p>Produtos criativos com nossa identidade visual.</p></div>
+<div class="card"><div class="ic">❤️</div><h3>Conexão Duradoura</h3><p>Encantamento e fidelização em cada detalhe.</p></div>
+</div>
+</section>
+
+<section id="equipe">
+<p class="eyebrow">Liderança e talento</p>
+<h2>Conheça Nossa Equipe</h2>
+<div class="team">
+<div class="card"><div class="ic">👑</div><h3>Esther</h3><div class="role">CEO</div></div>
+<div class="card"><div class="ic">💼</div><h3>Débora</h3><div class="role">Gerente</div></div>
+<div class="card"><div class="ic">📣</div><h3>Lara</h3><div class="role">Marketing</div></div>
+<div class="card"><div class="ic">💻</div><h3>Lucas</h3><div class="role">Gerente de TI</div></div>
+<div class="card"><div class="ic">🖋️</div><h3>Gustavo</h3><div class="role">Designer</div></div>
+</div>
+</section>
+
+<section class="band"><div>
+<p class="eyebrow">Portfólio exclusivo</p>
+<h2 style="margin:0">Nossos Produtos Personalizados</h2>
+</div></section>
+
+<section id="produtos">
+<div class="prod">
+<div class="ph">🧸</div>
+<div>
+<p class="eyebrow">Produto 01</p>
+<h3>Boneco Colecionável Fox</h3>
+<p><b style="color:var(--tx)">Inspirado no Fredi.</b> Nosso bonequinho traz a personalidade do Fredi em formato colecionável estilo Pop, perfeito para exposição.</p>
+<ul>
+<li><b>Identidade Única:</b> Traços fiéis, barba e tatuagens detalhadas.</li>
+<li><b>Embalagem Oficial:</b> Caixa personalizada com as cores da raposa.</li>
+<li><b>Acabamento Premium:</b> Base acrílica para manter o boneco em pé.</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section>
+<p class="eyebrow">Design e acabamento</p>
+<h2>A Marca nos Detalhes da Roupa</h2>
+<div class="grid">
+<div class="card"><div class="ic">⭐</div><h3>Logo em Destaque</h3><p>Nossa raposa estampada com precisão no peito.</p></div>
+<div class="card"><div class="ic">👕</div><h3>Visual Moderno</h3><p>Camiseta escura combinando com a paleta da Fox.</p></div>
+<div class="card"><div class="ic">🏅</div><h3>Qualidade Visual</h3><p>Pintura cuidadosa para destacar nossa identidade corporativa.</p></div>
+</div>
+</section>
+
+<section>
+<div class="prod rev">
+<div class="ph">🔑</div>
+<div>
+<p class="eyebrow">Produto 02</p>
+<h3>Chaveiro Fox Solutions</h3>
+<p><b style="color:var(--tx)">O Símbolo da Marca no Dia a Dia.</b> Criado com o emblema oficial da nossa raposa em relevo e acabamento de alta durabilidade para acompanhar o cliente.</p>
+<ul>
+<li><b>Design Marcante:</b> Contorno escuro com camadas laranjas vibrantes.</li>
+<li><b>Alta Resistência:</b> Material emborrachado e argola reforçada.</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="estrategia">
+<p class="eyebrow">Estratégia de retenção</p>
+<h2>A Nossa “Cartada de Mestre”</h2>
+<div class="grid">
+<div class="card"><div class="ic">🎁</div><h3>Épocas Festivas</h3><p>O chaveiro será um presente especial em datas como o Natal e o aniversário da loja.</p></div>
+<div class="card"><div class="ic">🤝</div><h3>Clientes Fidelidade</h3><p>Reconhecimento tangível para os parceiros que estão sempre com a Fox Solutions.</p></div>
+<div class="card"><div class="ic">📈</div><h3>Incentivo de Vendas</h3><p>Brinde exclusivo para clientes que atingirem um valor estipulado em compras.</p></div>
+</div>
+</section>
+
+<section class="end">
+<div class="logo">🦊</div>
+<p class="eyebrow">O resultado esperado</p>
+<h2>Transformando Brindes em Relacionamentos</h2>
+<p>Nossa estratégia não é apenas presentear, mas garantir que a Fox Solutions seja lembrada diariamente por quem impulsiona nosso negócio.</p>
+</section>
+
+<footer>© Fox Solutions 🦊</footer>
+</body>
+</html>
